@@ -351,7 +351,7 @@
               <span class="text-xl sm:text-2xl font-heading font-black text-brand-dark tracking-tight">9286261202</span>
             </div>
           </a> 
-          <!-- REGISTRATION FORM SECTION -->
+<!-- REGISTRATION FORM SECTION -->
 <section id="register" class="py-16 bg-white border-b border-gray-200">
   <div class="max-w-3xl mx-auto px-4 sm:px-6">
     <div class="bg-gradient-to-br from-pink-50/50 via-white to-sky-50/50 p-6 sm:p-10 rounded-3xl border-2 border-brand-magenta/30 shadow-xl">
@@ -369,13 +369,17 @@
       </div>
 
       <form id="admissionForm" onsubmit="submitToWhatsApp(event)" class="space-y-5">
+        
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <!-- Student Name -->
           <div>
             <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1.5">
               <i class="fa-solid fa-user text-brand-magenta mr-1"></i> Student Name *
             </label>
             <input type="text" id="studentName" required placeholder="Aapka poora naam" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:border-brand-magenta text-sm bg-white">
           </div>
+
+          <!-- Father's Name -->
           <div>
             <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1.5">
               <i class="fa-solid fa-user-tie text-brand-navy mr-1"></i> Father's Name *
@@ -385,12 +389,15 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <!-- Mobile Number -->
           <div>
             <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1.5">
               <i class="fa-solid fa-phone text-emerald-600 mr-1"></i> Mobile / WhatsApp No *
             </label>
             <input type="tel" id="mobileNo" required placeholder="10-digit mobile number" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:border-brand-magenta text-sm bg-white">
           </div>
+
+          <!-- Course Selection -->
           <div>
             <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1.5">
               <i class="fa-solid fa-book-open text-brand-gold mr-1"></i> Select Course *
@@ -403,6 +410,7 @@
           </div>
         </div>
 
+        <!-- Address -->
         <div>
           <label class="block text-xs font-bold uppercase tracking-wider text-gray-700 mb-1.5">
             <i class="fa-solid fa-location-dot text-brand-magenta mr-1"></i> Full Address *
@@ -410,13 +418,21 @@
           <textarea id="address" rows="3" required placeholder="Aapka poora pata (e.g., Ladhaawala, Muzaffarnagar)" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:border-brand-magenta text-sm bg-white"></textarea>
         </div>
 
+        <!-- Submit Button -->
         <div class="text-center pt-2">
           <button type="submit" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white font-bold text-sm uppercase tracking-wider shadow-lg transition flex items-center justify-center gap-2 mx-auto">
             <i class="fa-brands fa-whatsapp text-lg"></i> Submit & Send on WhatsApp
           </button>
+          <p class="text-[11px] text-gray-500 mt-2">
+            🔒 Form submit karte hi aapka message seedhe Academy ke WhatsApp par chala jayega.
+          </p>
         </div>
+
       </form>
 
+    </div>
+  </div>
+</section>
     </div>
   </div>
 </section>
